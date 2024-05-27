@@ -1,0 +1,147 @@
+html,
+body {
+  min-width: 290px;
+  color: #0d0d0ef3;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-image: url(https://images.pexels.com/photos/5927890/pexels-photo-5927890.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(31, 20, 134, 0.527);
+  color: #7e0355;
+}
+
+header {
+  color: rgb(1, 48, 9);
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bolder;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: rgb(4, 121, 4);
+}
+
+#navbar li {
+  color: #08196e;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #232635;
+  text-decoration: none;
+  cursor: pointer;
+  background-image: url(https://images.pexels.com/photos/3727117/pexels-photo-3727117.jpeg?auto=compress&cs=tinysrgb&w=600)
+  
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  color: #023d2b;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #088f84ab;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  background-image: url(https://images.pexels.com/photos/3727117/pexels-photo-3727117.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+    font-style: bold;
+  }
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  display: fix;
+  float: unset;
+  border-radius: 50%;
+  border: 4px rgba(54, 1, 10, 0.288) solid;
+  object-fit: cover;
+}
