@@ -2,7 +2,7 @@ html,
 body {
   min-width: 290px;
   color: #0d0d0ef3;
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.5;
   background-image: url(https://images.pexels.com/photos/5927890/pexels-photo-5927890.jpeg?auto=compress&cs=tinysrgb&w=600);
@@ -12,8 +12,8 @@ body {
 #navbar {
   position: fixed;
   min-width: 290px;
-  top: 0px;
-  left: 0px;
+  top: 0%;
+  left: 0%;
   width: 300px;
   height: 100%;
   border-right: solid;
@@ -42,6 +42,10 @@ header {
   color: rgb(4, 121, 4);
 }
 
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
 #navbar li {
   color: #08196e;
   border-top: 1px solid;
@@ -56,8 +60,7 @@ header {
   color: #232635;
   text-decoration: none;
   cursor: pointer;
-  background-image: url(https://images.pexels.com/photos/3727117/pexels-photo-3727117.jpeg?auto=compress&cs=tinysrgb&w=600)
-  
+  background-image: url("https://images.pexels.com/photos/3727117/pexels-photo-3727117.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
 
 #main-doc {
@@ -71,10 +74,6 @@ section article {
   color: #023d2b;
   margin: 15px;
   font-size: 0.96em;
-}
-
-section li {
-  margin: 15px 0px 0px 20px;
 }
 
 code {
