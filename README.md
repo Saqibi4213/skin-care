@@ -69,7 +69,7 @@ nav ul li a {
 ```
 
 ## Demo 📸
-
+![demo](.//image/img.png.png)
 ## Technologies Used 🛠️
 - HTML
 - CSS
@@ -95,30 +95,30 @@ Here are some examples of how to use specific features of your project:
 
 To create a new item using the API, you can make a POST request to /api/items with the following JSON payload:
 
-json
-{
-  "name": "New Item",
-  "description": "This is a new item."
-}
 ```bash
 # bash
-curl -X POST http://localhost:3000/api/items -H "Content-Type: application/json" -d '{
-  "name": "New Item",
-  "description": "This is a new item."
-}'.
+git clone 
 ```
+```bash
+# bash
+cd skin-care 
+```
+```bash
+
 
 ## Features ⭐
 
  Responsive Design: Fully responsive UI that works seamlessly across various devices and screen sizes
  Unit and Integration Tests:
  using flex img forpage 
+ github usage
+ 
 
 ## Author 👩‍💻
  
  Mehria Saqibi 
  Email: mosawermh@gmail.com
- LinkedIn: [Mheria saqibi]
+ LinkedIn: [Mheria saqibi] https://www.linkedin.com/in/mheria-saqibi-a386a41a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 
 ## Contributing 🤝
