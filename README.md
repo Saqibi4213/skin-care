@@ -28,9 +28,6 @@ To create a new item using the API, you can make a POST request to /api/items wi
 # bash
 git clone 
 
-
-
-
 ## Features ⭐
 
  Responsive Design: Fully responsive UI that works seamlessly across various devices and screen sizes
