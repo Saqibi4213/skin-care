@@ -6,7 +6,6 @@
 
 ## Demo 📸
 ![demo](.//image/img.png.png)
-
 ## Technologies Used 🛠️
 - HTML
 - CSS
@@ -15,8 +14,12 @@
 Folow these steps to set up the project on your local machine 
 Ensure you have the following software installed on your machine 
 
+```
 # git clone 
-# git@github.com:Saqibi4213/skin-care.git
+```
+```
+# git clone https://github.com/yourusername/yourprojectname.git
+```
 
 ## Usage 🎯
 Here are some examples of how to use specific features of your project:
@@ -24,9 +27,9 @@ Here are some examples of how to use specific features of your project:
 #### Example 1: Creating a New Item
 
 To create a new item using the API, you can make a POST request to /api/items with the following JSON payload:
-
-# bash
-git clone 
+```
+# git clone 
+```
 
 ## Features ⭐
 
