@@ -52,12 +52,13 @@ section li {
   list-style: none;
   position: relative;
   width: 100%;
+  font-size: 1rem;
 }
 
 #navbar a {
   display: block;
   padding: 10px 30px;
-  color: #232635;
+  color: #121213;
   text-decoration: none;
   cursor: pointer;
   background-image: url("https://images.pexels.com/photos/3727117/pexels-photo-3727117.jpeg?auto=compress&cs=tinysrgb&w=600");
@@ -71,9 +72,9 @@ section li {
 }
 
 section article {
-  color: #023d2b;
+  color: #eff5f5;
   margin: 15px;
-  font-size: 0.96em;
+  font-size: 1rem;
 }
 
 code {
