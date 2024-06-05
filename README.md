@@ -5,7 +5,7 @@
 > This project is a comprehensive technical documentation page dedicated to skincare. Built using HTML and CSS, it provides detailed information about various skincare routines, ingredients, and best practices. The page is designed to be user-friendly and informative, offering a clean and organized layout that enhances readability and accessibility.
 
 ## Demo 📸
-![demo](.//image/img.png.png)
+![demo](./image/skincare.png)
 ## Technologies Used 🛠️
 - HTML
 - CSS
@@ -18,7 +18,7 @@ Ensure you have the following software installed on your machine
 # git clone 
 ```
 ```
-# git clone https://github.com/yourusername/yourprojectname.git
+#git@github.com:Saqibi4213/skin-care.git
 ```
 
 ## Usage 🎯
@@ -47,7 +47,7 @@ To create a new item using the API, you can make a POST request to /api/items wi
  <br>
  LinkedIn: [Mheria saqibi] https://www.linkedin.com/in/mheria-saqibi-a386a41a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
  <br />
- website : 
+ website : https://saqibi4213.github.io/skin-care/
 
 
 ## Contributing 🤝
